@@ -189,7 +189,7 @@ export default function Home() {
             </h3>
         </div>
           <div className="flex flex-col gap-10 py-10 md:flex-row md:flex-wrap">
-            <div className="max-w-md basis-1/3 flex-1 lg:basis-1/4 bg-gray-600 p-5 rounded-lg  dark:bg-white scale-90 hover:scale-100 ease-in-out delay-150 duration-300">
+            <div className="max-w-md basis-1/3 flex-1 lg:basis-1/3 bg-gray-600 p-5 rounded-lg  dark:bg-white scale-90 hover:scale-100 ease-in-out delay-150 duration-300">
               <Image className="rounded-lg object-contain w-full h-64" src={project1}/>
               <div className="text-gray-100 dark:text-black">
                 <ul className="flex gap-5 py-5 items-center text-xl">
@@ -200,7 +200,7 @@ export default function Home() {
                 <p>Humber College's Employee Event Website that uses html, css, bootstrap and vanilla javascript.</p>
               </div>
             </div>
-            <div className="max-w-md basis-1/3 flex-1 lg:basis-1/4 bg-gray-600 p-5 rounded-lg  dark:bg-white scale-90 hover:scale-100 ease-in-out delay-150 duration-300">
+            <div className="max-w-md basis-1/3 flex-1 lg:basis-1/3 bg-gray-600 p-5 rounded-lg  dark:bg-white scale-90 hover:scale-100 ease-in-out delay-150 duration-300">
               <Image className="rounded-lg object-contain w-full h-64" src={project2}/>
               <div className="text-gray-100 dark:text-black">
                 <ul className="flex gap-5 py-5 items-center text-xl">
@@ -211,7 +211,7 @@ export default function Home() {
                 <p>Travel Website that uses html, css and vanilla javascript.</p>
               </div>
             </div>
-            <div className="max-w-md basis-1/3 flex-1 lg:basis-1/4 bg-gray-600 p-5 rounded-lg  dark:bg-white scale-90 hover:scale-100 ease-in-out delay-150 duration-300">
+            <div className="max-w-md basis-1/3 flex-1 lg:basis-1/3 bg-gray-600 p-5 rounded-lg  dark:bg-white scale-90 hover:scale-100 ease-in-out delay-150 duration-300">
               <Image className="rounded-lg object-contain w-full h-64" src={project3}/>
               <div className="text-gray-100 dark:text-black">
                 <ul className="flex gap-5 py-5 items-center text-xl">
@@ -221,7 +221,7 @@ export default function Home() {
                 <p>A J2EE web app that uses java servlet and mysql database to insert(validation) and fetch data.</p>
               </div>
             </div>     
-            <div className="max-w-md basis-1/3 flex-1 lg:basis-1/4 bg-gray-600 p-5 rounded-lg  dark:bg-white scale-90 hover:scale-100 ease-in-out delay-150 duration-300">
+            <div className="max-w-md basis-1/3 flex-1 lg:basis-1/3 bg-gray-600 p-5 rounded-lg  dark:bg-white scale-90 hover:scale-100 ease-in-out delay-150 duration-300">
               <Image className="rounded-lg object-contain w-full h-64" src={project4}/>
               <div className="text-gray-100 dark:text-black">
                 <ul className="flex gap-5 py-5 items-center text-xl">
@@ -231,7 +231,7 @@ export default function Home() {
                 <p>Two tier client-server J2EE web app where the client uses html form to sends data to the server(JAVA Servlet) where server side validation is applied before displaying the result.</p>
               </div>
             </div>
-            <div className="max-w-md basis-1/3 flex-1 lg:basis-1/4 bg-gray-600 p-5 rounded-lg  dark:bg-white scale-90 hover:scale-100 ease-in-out delay-150 duration-300">
+            <div className="max-w-md basis-1/3 flex-1 lg:basis-1/3 bg-gray-600 p-5 rounded-lg  dark:bg-white scale-90 hover:scale-100 ease-in-out delay-150 duration-300">
               <Image className="rounded-lg object-contain w-full h-64" src={project5}/>
               <div className="text-gray-100 dark:text-black">
                 <ul className="flex gap-5 py-5 items-center text-xl">
@@ -241,7 +241,7 @@ export default function Home() {
                 <p>A c# console application where user can make individual/mass IT equipment purchase (with randomly generated accessories) based on the chosen type. The app utilizes various data structures and design patterns.</p>
               </div>
             </div>
-            <div className="max-w-md basis-1/3 flex-1 lg:basis-1/4 bg-gray-600 p-5 rounded-lg  dark:bg-white scale-90 hover:scale-100 ease-in-out delay-150 duration-300">
+            <div className="max-w-md basis-1/3 flex-1 lg:basis-1/3 bg-gray-600 p-5 rounded-lg  dark:bg-white scale-90 hover:scale-100 ease-in-out delay-150 duration-300">
               <Image className="rounded-lg object-contain w-full h-64" src={project6}/>
               <div className="text-gray-100 dark:text-black">
                 <ul className="flex gap-5 py-5 items-center text-xl">
@@ -251,7 +251,7 @@ export default function Home() {
                 <p>An android cooking app (java/xml) that has features such as recipe catalog, filter, recommendation and many more.</p>
               </div>
             </div>     
-            <div className="max-w-md basis-1/3 flex-1 lg:basis-1/4 bg-gray-600 p-5 rounded-lg  dark:bg-white scale-90 hover:scale-100 ease-in-out delay-150 duration-300">
+            <div className="max-w-md basis-1/3 flex-1 lg:basis-1/3 bg-gray-600 p-5 rounded-lg  dark:bg-white scale-90 hover:scale-100 ease-in-out delay-150 duration-300">
               <Image className="rounded-lg object-contain w-full h-64" src={project7}/>
               <div className="text-gray-100 dark:text-black">
                 <ul className="flex gap-5 py-5 items-center text-xl">
@@ -263,7 +263,7 @@ export default function Home() {
                 <p>Customer Record, product and staff management app that uses java, jdbc,sql server along with read-write to text/binary files. </p>
               </div>
             </div>  
-            <div className="max-w-md basis-1/3 flex-1 lg:basis-1/4 bg-gray-600 p-5 rounded-lg  dark:bg-white scale-90 hover:scale-100 ease-in-out delay-150 duration-300">
+            <div className="max-w-md basis-1/3 flex-1 lg:basis-1/3 bg-gray-600 p-5 rounded-lg  dark:bg-white scale-90 hover:scale-100 ease-in-out delay-150 duration-300">
               <Image className="rounded-lg object-contain w-full h-64" src={project8}/>
               <div className="text-gray-100 dark:text-black">
                 <ul className="flex gap-5 py-5 items-center text-xl">
@@ -273,7 +273,7 @@ export default function Home() {
                 <p>A US based restaurant portal redesign using WordPress CMS.</p>
               </div>
             </div>  
-            <div className="max-w-md basis-1/3 flex-1 lg:basis-1/4 bg-gray-600 p-5 rounded-lg  dark:bg-white scale-90 hover:scale-100 ease-in-out delay-150 duration-300">
+            <div className="max-w-md basis-1/3 flex-1 lg:basis-1/3 bg-gray-600 p-5 rounded-lg  dark:bg-white scale-90 hover:scale-100 ease-in-out delay-150 duration-300">
               <Image className="rounded-lg object-contain w-full h-64" src={project9}/>
               <div className="text-gray-100 dark:text-black">
                 <ul className="flex gap-5 py-5 items-center text-xl">
@@ -283,7 +283,7 @@ export default function Home() {
                 <p>Analysis of the Factors that Affect Bus Delay in Toronto using big data technologies such as hadoop(hdfs),hive and spark.</p>
               </div>
             </div>    
-            <div className="max-w-md basis-1/3 flex-1 lg:basis-1/4 bg-gray-600 p-5 rounded-lg  dark:bg-white scale-90 hover:scale-100 ease-in-out delay-150 duration-300">
+            <div className="max-w-md basis-1/3 flex-1 lg:basis-1/3 bg-gray-600 p-5 rounded-lg  dark:bg-white scale-90 hover:scale-100 ease-in-out delay-150 duration-300">
               <Image className="rounded-lg object-contain w-full h-64" src={project10}/>
               <div className="text-gray-100 dark:text-black">
                 <ul className="flex gap-5 py-5 items-center text-xl">
