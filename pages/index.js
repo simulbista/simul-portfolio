@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { BsFillMoonStarsFill } from "react-icons/bs";
-import { AiFillLinkedin, AiFillGithub, AiOutlineGlobal } from "react-icons/ai";
+import { AiFillLinkedin, AiFillGithub, AiOutlineGlobal,AiFillFilePdf } from "react-icons/ai";
 import Image from "next/image";
 import sim_img from "../public/img/simul_photo.png";
 import skills_pl from "../public/img/skills_pl.png";
@@ -18,6 +18,8 @@ import project7 from "../public/img/proj/7-usr-mgmt-app.png"
 import project8 from "../public/img/proj/8-restaurant-portal.png"
 import project9 from "../public/img/proj/9-ttc-bus-delay-big-data.png"
 import project10 from "../public/img/proj/10-diamond-price-analysis.png"
+// import report9 from "../public/Toronto-Bus-Delay-Analysis-BigData.pdf";
+// import report10 from "../public/Diamond-Price-Prediction-MachineLearning.pdf";
 import { useState } from "react";
 
 export default function Home() {
@@ -278,7 +280,7 @@ export default function Home() {
               <div className="text-gray-100 dark:text-black">
                 <ul className="flex gap-5 py-5 items-center text-xl">
                   <li>Analysis of TTC Bus Delay</li>
-                  <li><a href="#" target="_blank"><AiOutlineGlobal /></a></li>
+                  <a href="Toronto-Bus-Delay-Analysis-BigData.pdf"alt="alt text" target="_blank" rel="noopener noreferrer"><AiFillFilePdf /></a>
                 </ul>
                 <p>Analysis of the Factors that Affect Bus Delay in Toronto using big data technologies such as hadoop(hdfs),hive and spark.</p>
               </div>
@@ -288,7 +290,7 @@ export default function Home() {
               <div className="text-gray-100 dark:text-black">
                 <ul className="flex gap-5 py-5 items-center text-xl">
                   <li>Analysis/Prediction of Price of Diamond</li>
-                  <li><a href="#" target="_blank"><AiOutlineGlobal /></a></li>
+                  <a href="/report/Diamond-Price-Prediction-MachineLearning.pdf"alt="alt text" target="_blank" rel="noopener noreferrer"><AiFillFilePdf /></a>
                 </ul>
                 <p>Analysis/Prediction of the price of diamond using regression model (python, numpy, pandas, matplotlib, seaborn).</p>
               </div>
