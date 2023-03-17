@@ -18,8 +18,6 @@ import project7 from "../public/img/proj/7-usr-mgmt-app.png"
 import project8 from "../public/img/proj/8-restaurant-portal.png"
 import project9 from "../public/img/proj/9-ttc-bus-delay-big-data.png"
 import project10 from "../public/img/proj/10-diamond-price-analysis.png"
-// import report9 from "../public/Toronto-Bus-Delay-Analysis-BigData.pdf";
-// import report10 from "../public/Diamond-Price-Prediction-MachineLearning.pdf";
 import { useState } from "react";
 
 export default function Home() {
@@ -43,12 +41,10 @@ export default function Home() {
                 <BsFillMoonStarsFill onClick={()=>setDarkMode(!darkMode)} className="cursor-pointer text-2xl" />
               </li>
               <li>
-                <a
+              <a
                   className="bg-gradient-to-r from-orange-400 to-red-400 text-white px-4 py-2 rounded-lg ml-8"
-                  href="https://www.linkedin.com/in/simul-bista/"
-                  target="_blank"
-                >
-                  LinkedIn
+                  href="/report/Simul Bista - Resume.pdf" alt="resume" target="_blank" rel="noopener noreferrer">
+                  Resume
                 </a>
               </li>
             </ul>
