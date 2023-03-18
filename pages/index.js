@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillLinkedin, AiFillGithub, AiOutlineGlobal,AiFillFilePdf } from "react-icons/ai";
+import { WiHorizon } from "react-icons/wi";
 import Image from "next/image";
 import sim_img from "../public/img/simul_photo.png";
 import skills_pl from "../public/img/skills_pl.png";
@@ -21,7 +22,7 @@ import project10 from "../public/img/proj/10-diamond-price-analysis.png"
 import { useState } from "react";
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
   return (
     <div className={darkMode ? "dark": ""}>
       <Head>
@@ -38,7 +39,7 @@ export default function Home() {
             </h1>
             <ul className="flex items-center">
               <li>
-                <BsFillMoonStarsFill onClick={()=>setDarkMode(!darkMode)} className="cursor-pointer text-2xl" />
+                <WiHorizon onClick={()=>setDarkMode(!darkMode)} className="cursor-pointer text-5xl text-orange-400 hover:text-orange-200 hover:ease-in hover:scale-75 hover:delay-150 hover:duration-100 dark:text-white dark:hover:text-orange-600 dark:hover:scale-125 " />
               </li>
               <li>
               <a
