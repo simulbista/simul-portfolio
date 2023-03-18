@@ -62,7 +62,7 @@ export default function Home() {
               </li>
             </ul>
           </nav>
-          <div className="text-center py-10 px-5">
+          <div className="text-center px-5">
             <h2 className="text-5xl py-2 text-orange-400 font-medium  max-sm:text-4xl">
               Simul Bista
             </h2>
@@ -80,7 +80,10 @@ export default function Home() {
             <h3 className="text-sm py-2 leading-10 font-semibold text-green-600 dark:text-orange-400">
               Software Developer
             </h3>
-            <p className="text-justify text-base dark:text-white">
+            <div className="relative mx-auto bg-gradient-to-b from-orange-400 to-red-400 text-white rounded-full w-60 h-80 shadow-2xl mt-4 mb-8 overflow-hidden">
+              <Image src={sim_img} fill="fill" objectFit="cover" />
+            </div>
+            <p className="text-justify text-base pt-2 dark:text-white lg:px-32">
               With my extensive background in Java and over three years of
               experience as a software developer, I bring valuable project
               management skills to the table. I have a proven track record of
@@ -91,14 +94,10 @@ export default function Home() {
               to have a positive impact on the wider community.
             </p>
           </div>
-
-          <div className="relative mx-auto bg-gradient-to-b from-orange-400 to-red-400 text-white rounded-full w-60 h-80 shadow-2xl mt-10 overflow-hidden">
-            <Image src={sim_img} fill="fill" objectFit="cover" />
-          </div>
         </section>
         <section>
           <div className="text-center pt-10 font-semibold">
-            <h3 className="text-5xl pt-20 pb-10 text-orange-400 font-medium">
+            <h3 className="text-5xl pt-16 pb-10 text-orange-400 font-medium">
               Skills
             </h3>
           </div>
