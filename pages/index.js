@@ -37,7 +37,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <main className="bg-white px-10 dark:bg-gray-800">
-        <section className="min-h-screen">
+        <section className>
           <nav className="py-10 mb-12 flex justify-between items-center">
             <h1 className="text-xl font-burtons max-sm:text-sm dark:text-white">
               Developed By: Simul
@@ -84,7 +84,7 @@ export default function Home() {
               Software Developer
             </h3>
             <div className="relative mx-auto bg-gradient-to-b from-orange-400 to-red-400 text-white rounded-full w-60 h-80 shadow-2xl mt-4 mb-8 overflow-hidden">
-              <Image src={sim_img} fill="fill" objectFit="cover" />
+              <Image src={sim_img} alt="simul_image" fill="fill" objectFit="cover" />
             </div>
             <p className="text-justify text-base pt-2 dark:text-white lg:px-32">
               With my extensive background in Java and over three years of
@@ -111,6 +111,7 @@ export default function Home() {
                 src={skills_pl}
                 width={100}
                 height={100}
+                alt="skills"
               />
               <h3 className="text-sm leading-10 font-semibold text-green-600">
                 Programming Languages
@@ -129,6 +130,7 @@ export default function Home() {
                 src={skills_wd}
                 width={100}
                 height={100}
+                alt="skills"
               />
               <h3 className="text-sm leading-10 font-semibold text-green-600">
                 Web Development Technologies
@@ -156,6 +158,7 @@ export default function Home() {
                 src={skills_db}
                 width={100}
                 height={100}
+                alt="skills"
               />
               <h3 className="text-sm leading-10 font-semibold text-green-600">
                 Databases
@@ -173,6 +176,7 @@ export default function Home() {
                 src={skills_bd}
                 width={100}
                 height={100}
+                alt="skills"
               />
               <h3 className="text-sm leading-10 font-semibold text-green-600">
                 Big Data Technologies
@@ -191,6 +195,7 @@ export default function Home() {
                 src={skills_o}
                 width={100}
                 height={100}
+                alt="skills"
               />
               <h3 className="text-sm leading-10 font-semibold text-green-600">
                 Others
@@ -217,6 +222,7 @@ export default function Home() {
               <Image
                 className="rounded-lg object-contain w-full h-64"
                 src={project1}
+                alt="project"
               />
               <div className="text-gray-100 dark:text-black">
                 <ul className="flex gap-5 py-5 items-center text-xl">
@@ -248,6 +254,7 @@ export default function Home() {
               <Image
                 className="rounded-lg object-contain w-full h-64"
                 src={project2}
+                alt="project"
               />
               <div className="text-gray-100 dark:text-black">
                 <ul className="flex gap-5 py-5 items-center text-xl">
@@ -278,6 +285,7 @@ export default function Home() {
               <Image
                 className="rounded-lg object-contain w-full h-64"
                 src={project3}
+                alt="project"
               />
               <div className="text-gray-100 dark:text-black">
                 <ul className="flex gap-5 py-5 items-center text-xl">
@@ -301,6 +309,7 @@ export default function Home() {
               <Image
                 className="rounded-lg object-contain w-full h-64"
                 src={project4}
+                alt="project"
               />
               <div className="text-gray-100 dark:text-black">
                 <ul className="flex gap-5 py-5 items-center text-xl">
@@ -325,6 +334,7 @@ export default function Home() {
               <Image
                 className="rounded-lg object-contain w-full h-64"
                 src={project5}
+                alt="project"
               />
               <div className="text-gray-100 dark:text-black">
                 <ul className="flex gap-5 py-5 items-center text-xl">
@@ -350,6 +360,7 @@ export default function Home() {
               <Image
                 className="rounded-lg object-contain w-full h-64"
                 src={project6}
+                alt="project"
               />
               <div className="text-gray-100 dark:text-black">
                 <ul className="flex gap-5 py-5 items-center text-xl">
@@ -373,6 +384,7 @@ export default function Home() {
               <Image
                 className="rounded-lg object-contain w-full h-64"
                 src={project7}
+                alt="project"
               />
               <div className="text-gray-100 dark:text-black">
                 <ul className="flex gap-5 py-5 items-center text-xl">
@@ -413,6 +425,7 @@ export default function Home() {
               <Image
                 className="rounded-lg object-contain w-full h-64"
                 src={project8}
+                alt="project"
               />
               <div className="text-gray-100 dark:text-black">
                 <ul className="flex gap-5 py-5 items-center text-xl">
@@ -435,6 +448,7 @@ export default function Home() {
               <Image
                 className="rounded-lg object-contain w-full h-64"
                 src={project9}
+                alt="project"
               />
               <div className="text-gray-100 dark:text-black">
                 <ul className="flex gap-5 py-5 items-center text-xl">
@@ -458,6 +472,7 @@ export default function Home() {
               <Image
                 className="rounded-lg object-contain w-full h-64"
                 src={project10}
+                alt="project"
               />
               <div className="text-gray-100 dark:text-black">
                 <ul className="flex gap-5 py-5 items-center text-xl">
