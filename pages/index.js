@@ -39,7 +39,7 @@ export default function Home() {
             </h1>
             <ul className="flex items-center">
               <li>
-                <WiHorizon onClick={()=>setDarkMode(!darkMode)} className="cursor-pointer text-5xl text-orange-400 hover:text-orange-200 hover:ease-in hover:scale-75 hover:delay-150 hover:duration-100 dark:text-white dark:hover:text-orange-600 dark:hover:scale-125 " />
+                <WiHorizon onClick={()=>setDarkMode(!darkMode)} className="cursor-pointer text-5xl text-orange-600 hover:text-orange-300 hover:ease-in hover:scale-75 hover:delay-150 hover:duration-100 dark:text-white dark:hover:text-orange-600 dark:hover:scale-125 " />
               </li>
               <li>
               <a
