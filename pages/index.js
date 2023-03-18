@@ -1,9 +1,9 @@
 import Head from "next/head";
-import { BsFillMoonStarsFill } from "react-icons/bs";
 import {
   AiFillLinkedin,
   AiFillGithub,
   AiOutlineGlobal,
+  AiOutlineMail,
   AiFillFilePdf,
 } from "react-icons/ai";
 import { WiHorizon } from "react-icons/wi";
@@ -75,6 +75,9 @@ export default function Home() {
               </a>
               <a href="https://github.com/simulbista" target="_blank">
                 <AiFillGithub />
+              </a>
+              <a href="mailto:simulbista@gmail.com">
+                <AiOutlineMail />
               </a>
             </div>
             <h3 className="text-sm py-2 leading-10 font-semibold text-green-600 dark:text-orange-400">
