@@ -454,7 +454,7 @@ export default function Home() {
                 <ul className="flex gap-5 py-5 items-center text-xl">
                   <li>Analysis of TTC Bus Delay</li>
                   <a
-                    href="Toronto-Bus-Delay-Analysis-BigData.pdf"
+                    href="/report/Toronto-Bus-Delay-Analysis-BigData.pdf"
                     alt="alt text"
                     target="_blank"
                     rel="noopener noreferrer"
