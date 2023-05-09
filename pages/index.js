@@ -217,7 +217,7 @@ export default function Home() {
               Projects
             </h3>
           </div>
-          <div className="flex flex-col gap-10 py-10 md:flex-row md:flex-wrap">
+          <div className="flex flex-col gap-2 py-10 md:flex-row md:flex-wrap">
             <div className="max-w-md basis-1/3 flex-1 lg:basis-1/3 bg-gray-600 p-5 rounded-lg  dark:bg-white scale-90 hover:scale-100 ease-in-out delay-150 duration-300">
               <Image
                 className="rounded-lg object-contain w-full h-64"
