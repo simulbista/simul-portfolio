@@ -18,12 +18,20 @@ import project1 from "../public/img/proj/1-humber-emp-eng-event-portal.jpg";
 import project2 from "../public/img/proj/2-travel-website.png";
 import project3 from "../public/img/proj/3-j2ee-db-prog-servlets.png";
 import project4 from "../public/img/proj/4-j2ee-2tier-webapp.png";
-import project5 from "../public/img/proj/5-csharp-consoleapp.png";
-import project6 from "../public/img/proj/6-android-cookingapp.png";
-import project7 from "../public/img/proj/7-usr-mgmt-app.png";
-import project8 from "../public/img/proj/8-restaurant-portal.png";
-import project9 from "../public/img/proj/9-ttc-bus-delay-big-data.png";
-import project10 from "../public/img/proj/10-diamond-price-analysis.png";
+
+import project5 from "../public/img/proj/5-J2EE-MVC-Design-Friends-Info-App.png";
+import project6 from "../public/img/proj/6-Android-Events-Form.png";
+import project7 from "../public/img/proj/7-Ontario-RRSP-and-Tax-Calculation-Android-App.png";
+import project8 from "../public/img/proj/8-Books-Record-App-Using-Express-JS-Handlebars.png";
+import project9 from "../public/img/proj/9-RestaurantApp.png";
+
+import project10 from "../public/img/proj/10-csharp-consoleapp.png";
+import project11 from "../public/img/proj/11-android-cookingapp.png";
+import project12 from "../public/img/proj/12-usr-mgmt-app.png";
+import project13 from "../public/img/proj/13-restaurant-portal.png";
+import project14 from "../public/img/proj/14-ttc-bus-delay-big-data.png";
+import project15 from "../public/img/proj/15-diamond-price-analysis.png";
+import project16 from "../public/img/proj/16-Prediction-Analysis_of_ Healthy_Life_ Expectancy.png";
 import { useState } from "react";
 
 export default function Home() {
@@ -119,8 +127,8 @@ export default function Home() {
               <div>
                 <ul className="list-disc pl-5">
                   <li>Java</li>
-                  <li>C#</li>
                   <li>JavaScript</li>
+                  <li>C#</li>
                 </ul>
               </div>
             </div>
@@ -338,6 +346,121 @@ export default function Home() {
               />
               <div className="text-gray-100 dark:text-black">
                 <ul className="flex gap-5 py-5 items-center text-xl">
+                  <li>J2EE MVC Friend's Info Web App</li>
+                  <li>
+                    <a
+                      href="https://github.com/simulbista/J2EE-MVC-Design"
+                      target="_blank"
+                    >
+                      <AiFillGithub />
+                    </a>
+                  </li>
+                </ul>
+                <p>
+                Use MVC Framework to handle CRUD operations in the J2EE web app using MYSQL database.
+                </p>
+              </div>
+            </div>
+            <div className="max-w-md basis-1/3 flex-1 lg:basis-1/3 bg-gray-600 p-5 rounded-lg  dark:bg-white scale-90 hover:scale-100 ease-in-out delay-150 duration-300">
+              <Image
+                className="rounded-lg object-contain w-full h-64"
+                src={project6}
+                alt="project"
+              />
+              <div className="text-gray-100 dark:text-black">
+                <ul className="flex gap-5 py-5 items-center text-xl">
+                  <li>Android-Event-Form</li>
+                  <li>
+                    <a
+                      href="https://github.com/simulbista/Android-Calendar-Form/"
+                      target="_blank"
+                    >
+                      <AiFillGithub />
+                    </a>
+                  </li>
+                </ul>
+                <p>
+                An android app that uses xml and java (intents) to submit event data to the native app calendar (stores photo taken from the native camera app to the form).
+                </p>
+              </div>
+            </div>
+            <div className="max-w-md basis-1/3 flex-1 lg:basis-1/3 bg-gray-600 p-5 rounded-lg  dark:bg-white scale-90 hover:scale-100 ease-in-out delay-150 duration-300">
+              <Image
+                className="rounded-lg object-contain w-full h-64"
+                src={project7}
+                alt="project"
+              />
+              <div className="text-gray-100 dark:text-black">
+                <ul className="flex gap-5 py-5 items-center text-xl">
+                  <li>Ontario-RRSP-and-Tax-Calculation-Android-App</li>
+                  <li>
+                    <a
+                      href="https://github.com/simulbista/Ontario-RRSP-and-Tax-Calculation-Android-App"
+                      target="_blank"
+                    >
+                      <AiFillGithub />
+                    </a>
+                  </li>
+                </ul>
+                <p>
+                Android application to calculate rrsp and tax for annual income of year 2022 (xml and java)
+                </p>
+              </div>
+            </div>
+            <div className="max-w-md basis-1/3 flex-1 lg:basis-1/3 bg-gray-600 p-5 rounded-lg  dark:bg-white scale-90 hover:scale-100 ease-in-out delay-150 duration-300">
+              <Image
+                className="rounded-lg object-contain w-full h-64"
+                src={project8}
+                alt="project"
+              />
+              <div className="text-gray-100 dark:text-black">
+                <ul className="flex gap-5 py-5 items-center text-xl">
+                  <li>Books-Record-App-Using-Express-JS-Handlebars</li>
+                  <li>
+                    <a
+                      href="https://github.com/simulbista/Books-Record-App-Using-Express-JS-Handlebars"
+                      target="_blank"
+                    >
+                      <AiFillGithub />
+                    </a>
+                  </li>
+                </ul>
+                <p>
+                A Node/Express js Application that uses template engines (handlebars) to display records of books from Books.json file is with different routing that has features such as filter data(using form) by book title and book id, highlight book record based on their count.
+                </p>
+              </div>
+            </div>
+            <div className="max-w-md basis-1/3 flex-1 lg:basis-1/3 bg-gray-600 p-5 rounded-lg  dark:bg-white scale-90 hover:scale-100 ease-in-out delay-150 duration-300">
+              <Image
+                className="rounded-lg object-contain w-full h-64"
+                src={project9}
+                alt="project"
+              />
+              <div className="text-gray-100 dark:text-black">
+                <ul className="flex gap-5 py-5 items-center text-xl">
+                  <li>RestaurantApp</li>
+                  <li>
+                    <a
+                      href="https://github.com/simulbista/RestaurantApp"
+                      target="_blank"
+                    >
+                      <AiFillGithub />
+                    </a>
+                  </li>
+                </ul>
+                <p>
+                A node/Express js web app about restaurants that interacts with mongodb (using thunderclient) to perform CRUD operations.
+                </p>
+              </div>
+            </div>
+            <div className="max-w-md basis-1/3 flex-1 lg:basis-1/3 bg-gray-600 p-5 rounded-lg  dark:bg-white scale-90 hover:scale-100 ease-in-out delay-150 duration-300">
+              <Image
+                className="rounded-lg object-contain w-full h-64"
+                src={project10}
+                alt="project"
+              />
+              <div className="text-gray-100 dark:text-black">
+                <ul className="flex gap-5 py-5 items-center text-xl">
                   <li>IT Equip. Purchasing c# Console App</li>
                   <li>
                     <a
@@ -359,7 +482,7 @@ export default function Home() {
             <div className="max-w-md basis-1/3 flex-1 lg:basis-1/3 bg-gray-600 p-5 rounded-lg  dark:bg-white scale-90 hover:scale-100 ease-in-out delay-150 duration-300">
               <Image
                 className="rounded-lg object-contain w-full h-64"
-                src={project6}
+                src={project11}
                 alt="project"
               />
               <div className="text-gray-100 dark:text-black">
@@ -383,7 +506,7 @@ export default function Home() {
             <div className="max-w-md basis-1/3 flex-1 lg:basis-1/3 bg-gray-600 p-5 rounded-lg  dark:bg-white scale-90 hover:scale-100 ease-in-out delay-150 duration-300">
               <Image
                 className="rounded-lg object-contain w-full h-64"
-                src={project7}
+                src={project12}
                 alt="project"
               />
               <div className="text-gray-100 dark:text-black">
@@ -424,7 +547,7 @@ export default function Home() {
             <div className="max-w-md basis-1/3 flex-1 lg:basis-1/3 bg-gray-600 p-5 rounded-lg  dark:bg-white scale-90 hover:scale-100 ease-in-out delay-150 duration-300">
               <Image
                 className="rounded-lg object-contain w-full h-64"
-                src={project8}
+                src={project13}
                 alt="project"
               />
               <div className="text-gray-100 dark:text-black">
@@ -440,14 +563,14 @@ export default function Home() {
                   </li>
                 </ul>
                 <p>
-                  A US based restaurant portal redesign using WordPress CMS.
+                  A US based restaurant portal redesign using WordPress.
                 </p>
               </div>
             </div>
             <div className="max-w-md basis-1/3 flex-1 lg:basis-1/3 bg-gray-600 p-5 rounded-lg  dark:bg-white scale-90 hover:scale-100 ease-in-out delay-150 duration-300">
               <Image
                 className="rounded-lg object-contain w-full h-64"
-                src={project9}
+                src={project14}
                 alt="project"
               />
               <div className="text-gray-100 dark:text-black">
@@ -471,7 +594,7 @@ export default function Home() {
             <div className="max-w-md basis-1/3 flex-1 lg:basis-1/3 bg-gray-600 p-5 rounded-lg  dark:bg-white scale-90 hover:scale-100 ease-in-out delay-150 duration-300">
               <Image
                 className="rounded-lg object-contain w-full h-64"
-                src={project10}
+                src={project15}
                 alt="project"
               />
               <div className="text-gray-100 dark:text-black">
@@ -489,6 +612,29 @@ export default function Home() {
                 <p>
                   Analysis/Prediction of the price of diamond using regression
                   model (python, numpy, pandas, matplotlib, seaborn).
+                </p>
+              </div>
+            </div>
+            <div className="max-w-md basis-1/3 flex-1 lg:basis-1/3 bg-gray-600 p-5 rounded-lg  dark:bg-white scale-90 hover:scale-100 ease-in-out delay-150 duration-300">
+              <Image
+                className="rounded-lg object-contain w-full h-64"
+                src={project16}
+                alt="project"
+              />
+              <div className="text-gray-100 dark:text-black">
+                <ul className="flex gap-5 py-5 items-center text-xl">
+                  <li>Prediction/Analysis of Healthy Life Expectancy</li>
+                  <a
+                    href="/report/Healthy-Life-Expectancy-Prediction-MachineLearning.pdf"
+                    alt="alt text"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <AiFillFilePdf />
+                  </a>
+                </ul>
+                <p>
+                Prediction of healthy life expectancy and identification of factors influencing it.
                 </p>
               </div>
             </div>
