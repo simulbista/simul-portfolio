@@ -9,12 +9,12 @@ import {
 import { WiHorizon } from "react-icons/wi";
 import Image from "next/image";
 import sim_img from "../public/img/simul_photo.png";
-import skills_pl from "../public/img/skills_pl.png";
-import skills_wd from "../public/img/skills_wd.png";
+import skills_be from "../public/img/skills_be.png";
+import skills_fe from "../public/img/skills_fe.png";
 import skills_db from "../public/img/skills_db.png";
-import skills_bd from "../public/img/skills_bd.png";
 import skills_o from "../public/img/skills_o.png";
-import project1 from "../public/img/proj/1-humber-emp-eng-event-portal.jpg";
+import project1 from "../public/img/proj/1_0-humber-emp-eng-event-portal.jpg";
+import project1_5 from "../public/img/proj/1_5-java-spring-boot-restaurant-web-app.png";
 import project2 from "../public/img/proj/2-travel-website.png";
 import project3 from "../public/img/proj/3-j2ee-db-prog-servlets.png";
 import project4 from "../public/img/proj/4-j2ee-2tier-webapp.png";
@@ -116,47 +116,50 @@ export default function Home() {
             <div className="scale-90 shadow-lg p-10 rounded-xl transition ease-in-out hover:scale-100 hover:shadow-orange-400 duration-500 max-sm:w-full h-fit lg:h-[520px] dark:bg-white">
               <Image
                 className="mx-auto w-16 mb-5 red "
-                src={skills_pl}
+                src={skills_be}
                 width={100}
                 height={100}
                 alt="skills"
               />
               <h3 className="text-sm leading-10 font-semibold text-green-600">
-                Programming Languages
+                Back-end Technologies
               </h3>
               <div>
                 <ul className="list-disc pl-5">
                   <li>Java</li>
-                  <li>JavaScript</li>
-                  <li>C#</li>
+                  <li>Spring Boot</li>
+                  <li>Spring MVC</li>
+                  <li>REST API</li>
+                  <li>Spring Data JPA</li>
+                  <li>Thymeleaf</li>
+                  <li>J2EE</li>
+                  <li>JAVA Servlets</li>
+                  <li>Node.js</li>
+                  <li>Express.js</li>
                 </ul>
               </div>
             </div>
             <div className="scale-90 shadow-lg p-10 rounded-xl transition ease-in-out hover:scale-100 hover:shadow-orange-400 duration-500 max-sm:w-full h-fit lg:h-[520px] dark:bg-white">
               <Image
                 className="mx-auto w-16 mb-5"
-                src={skills_wd}
+                src={skills_fe}
                 width={100}
                 height={100}
                 alt="skills"
               />
               <h3 className="text-sm leading-10 font-semibold text-green-600">
-                Web Development Technologies
+              Front-end Technologies
               </h3>
               <div>
                 <ul className="list-disc pl-5">
-                  <li>JSPs</li>
-                  <li>Java Servlets</li>
-                  <li>JDBC</li>
-                  <li>Node.js</li>
-                  <li>Express.js</li>
+                  <li>React.js</li>
+                  <li>Angular.js</li>
+                  <li>Redux</li>
+                  <li>Thymeleaf</li>
                   <li>HTML</li>
                   <li>CSS</li>
-                  <li>Tailwind CSS</li>
-                  <li>XML</li>
-                  <li>JSON</li>
-                  <li>Web APIs</li>
-                  <li>WordPress</li>
+                  <li>Tailwind.css</li>
+                  <li>Material UI</li>
                 </ul>
               </div>
             </div>
@@ -169,31 +172,14 @@ export default function Home() {
                 alt="skills"
               />
               <h3 className="text-sm leading-10 font-semibold text-green-600">
-                Databases
+                Databases Technologies
               </h3>
               <div>
                 <ul className="list-disc pl-5">
                   <li>Oracle (PL/SQL)</li>
                   <li>MySQL</li>
-                </ul>
-              </div>
-            </div>
-            <div className="scale-90 shadow-lg p-10 rounded-xl transition ease-in-out hover:scale-100 hover:shadow-orange-400 duration-500 max-sm:w-full h-fit lg:h-[520px] dark:bg-white">
-              <Image
-                className="mx-auto w-16 mb-5"
-                src={skills_bd}
-                width={100}
-                height={100}
-                alt="skills"
-              />
-              <h3 className="text-sm leading-10 font-semibold text-green-600">
-                Big Data Technologies
-              </h3>
-              <div>
-                <ul className="list-disc pl-5">
-                  <li>Hadoop</li>
-                  <li>HDFS</li>
-                  <li>Hive</li>
+                  <li>MongoDB</li>
+                  <li>H2 Database Engine</li>
                 </ul>
               </div>
             </div>
@@ -210,7 +196,15 @@ export default function Home() {
               </h3>
               <div>
                 <ul className="list-disc pl-5">
+                  <li>AWS CCP (on going)</li>
                   <li>Git</li>
+                  <li>Vercel</li>
+                  <li>Maven</li>
+                  <li>Postman</li>
+                  <li>Thunder Client</li>
+                  <li>XML</li>
+                  <li>JSON</li>
+                  <li>Lombok</li>
                   <li>Linux</li>
                   <li>Bash Scripting</li>
                 </ul>
@@ -222,7 +216,7 @@ export default function Home() {
         <section>
           <div className="text-center pt-10 font-semibold">
             <h3 className="text-5xl pt-20 pb-10 text-orange-400 font-medium">
-              Projects
+              Featured Projects
             </h3>
           </div>
           <div className="flex flex-col gap-2 py-10 md:flex-row md:flex-wrap">
@@ -253,8 +247,39 @@ export default function Home() {
                   </li>
                 </ul>
                 <p>
-                  Humber College's Employee Event Website that uses html, css,
+                  Humber College's Employer Engagement Event Website that uses html, css,
                   bootstrap and vanilla javascript.
+                </p>
+              </div>
+            </div>
+            <div className="max-w-md basis-1/3 flex-1 lg:basis-1/3 bg-gray-600 p-5 rounded-lg  dark:bg-white scale-90 hover:scale-100 ease-in-out delay-150 duration-300">
+              <Image
+                className="rounded-lg object-contain w-full h-64"
+                src={project1_5}
+                alt="project"
+              />
+              <div className="text-gray-100 dark:text-black">
+                <ul className="flex gap-5 py-5 items-center text-xl">
+                  <li>Restaurant Web Application</li>
+                  <li>
+                    <a
+                      href="https://github.com/simulbista/Restaurant-Application"
+                      target="_blank"
+                    >
+                      <AiFillGithub />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      target="_blank"
+                    >
+                      <AiOutlineGlobal />
+                    </a>
+                  </li>
+                </ul>
+                <p>
+                A Java Spring Boot restaurant web application (REST APIs, Spring Data JPA, Spring MVC, Maven, Spring Dev Tools, Lombok, Postman, Thymeleaf, Bootstrap) that retrieves dish data from H2 in memory database.
                 </p>
               </div>
             </div>
@@ -361,6 +386,15 @@ export default function Home() {
                 </p>
               </div>
             </div>
+            </div>
+        </section>
+        <section>
+          <div className="text-center pt-10 font-semibold">
+            <h3 className="text-5xl pt-20 pb-10 text-orange-400 font-medium">
+              Other Projects
+            </h3>
+          </div>
+          <div className="flex flex-col gap-2 py-10 md:flex-row md:flex-wrap">
             <div className="max-w-md basis-1/3 flex-1 lg:basis-1/3 bg-gray-600 p-5 rounded-lg  dark:bg-white scale-90 hover:scale-100 ease-in-out delay-150 duration-300">
               <Image
                 className="rounded-lg object-contain w-full h-64"
