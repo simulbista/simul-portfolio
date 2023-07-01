@@ -14,6 +14,8 @@ import skills_fe from "../public/img/skills_fe.png";
 import skills_db from "../public/img/skills_db.png";
 import skills_o from "../public/img/skills_o.png";
 import project1 from "../public/img/proj/1_0-humber-emp-eng-event-portal.jpg";
+import project1_2 from "../public/img/proj/1_2-java-spring-boot-pet-mgmt-app.png";
+import project1_3 from "../public/img/proj/1_3-java-spring-boot-book-mgmt-app.png";
 import project1_5 from "../public/img/proj/1_5-java-spring-boot-restaurant-web-app.png";
 import project2 from "../public/img/proj/2-travel-website.png";
 import project3 from "../public/img/proj/3-j2ee-db-prog-servlets.png";
@@ -196,7 +198,6 @@ export default function Home() {
               </h3>
               <div>
                 <ul className="list-disc pl-5">
-                  <li>AWS CCP (on going)</li>
                   <li>Git</li>
                   <li>Vercel</li>
                   <li>Maven</li>
@@ -249,6 +250,52 @@ export default function Home() {
                 <p>
                   Humber College's Employer Engagement Event Website that uses html, css,
                   bootstrap and vanilla javascript.
+                </p>
+              </div>
+            </div>
+            <div className="max-w-md basis-1/3 flex-1 lg:basis-1/3 bg-gray-600 p-5 rounded-lg  dark:bg-white scale-90 hover:scale-100 ease-in-out delay-150 duration-300">
+              <Image
+                className="rounded-lg object-contain w-full h-64"
+                src={project1_2}
+                alt="project"
+              />
+              <div className="text-gray-100 dark:text-black">
+                <ul className="flex gap-5 py-5 items-center text-xl">
+                  <li>Pet Mgmt App - PawfectPal</li>
+                  <li>
+                    <a
+                      href="https://github.com/simulbista/Pet-Management-Application"
+                      target="_blank"
+                    >
+                      <AiFillGithub />
+                    </a>
+                  </li>
+                </ul>
+                <p>
+                A JAVA Spring boot pet management application that allows the user to manage pet information (CRUD)  using Spring MVC, Tomcat server, H2 db, Spring JPA, Lombok, command line runner, Thymeleaf (form binding, fragments, conditionals), and bootstrap.
+                </p>
+              </div>
+            </div>
+            <div className="max-w-md basis-1/3 flex-1 lg:basis-1/3 bg-gray-600 p-5 rounded-lg  dark:bg-white scale-90 hover:scale-100 ease-in-out delay-150 duration-300">
+              <Image
+                className="rounded-lg object-contain w-full h-64"
+                src={project1_3}
+                alt="project"
+              />
+              <div className="text-gray-100 dark:text-black">
+                <ul className="flex gap-5 py-5 items-center text-xl">
+                  <li>Book-Library-XML-REST-API</li>
+                  <li>
+                    <a
+                      href="https://github.com/simulbista/Book-Library-API"
+                      target="_blank"
+                    >
+                      <AiFillGithub />
+                    </a>
+                  </li>
+                </ul>
+                <p>
+                XML REST API Spring Boot Application that provides different API endpoints to manage books in a H2 database (Spring Data JPA, Tomcat, Lombok, jackson, jaxb)
                 </p>
               </div>
             </div>
