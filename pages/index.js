@@ -8,7 +8,7 @@ import {
 } from "react-icons/ai";
 import { WiHorizon } from "react-icons/wi";
 import Image from "next/image";
-import sim_img from "../public/img/simul_photo.JPG";
+import sim_img from "../public/img/simul_photo.png";
 import skills_be from "../public/img/skills_be.png";
 import skills_fe from "../public/img/skills_fe.png";
 import skills_db from "../public/img/skills_db.png";
