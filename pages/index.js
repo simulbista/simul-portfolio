@@ -616,7 +616,7 @@ export default function Home() {
                 <p>
                   A Node/Express js Application that uses template engines
                   (handlebars) to display records of books from Books.json file
-                  is with different routing that has features such as filter
+                  with different routing that has features such as filter
                   data(using form) by book title and book id, highlight book
                   record based on their count.
                 </p>
