@@ -14,6 +14,7 @@ import skills_fe from "../public/img/skills_fe.png";
 import skills_db from "../public/img/skills_db.png";
 import skills_o from "../public/img/skills_o.png";
 import project1 from "../public/img/proj/1_0-humber-emp-eng-event-portal.jpg";
+import project1_1_2 from "../public/img/proj/1_1_2_petal-express-react-angular-express-node.png";
 import project1_2 from "../public/img/proj/1_2-java-spring-boot-pet-mgmt-app.png";
 import project1_3 from "../public/img/proj/1_3-java-spring-boot-book-mgmt-app.png";
 import project1_5 from "../public/img/proj/1_5-java-spring-boot-restaurant-web-app.png";
@@ -94,7 +95,12 @@ export default function Home() {
               Software Developer
             </h3>
             <div className="relative mx-auto bg-gradient-to-b from-orange-400 to-red-400 text-white rounded-full w-60 h-80 shadow-2xl mt-4 mb-8 overflow-hidden">
-              <Image src={sim_img} alt="simul_image" fill="fill" objectFit="cover" />
+              <Image
+                src={sim_img}
+                alt="simul_image"
+                fill="fill"
+                objectFit="cover"
+              />
             </div>
             <p className="text-justify text-base pt-2 dark:text-white lg:px-32">
               With my extensive background in Java and over three years of
@@ -150,7 +156,7 @@ export default function Home() {
                 alt="skills"
               />
               <h3 className="text-sm leading-10 font-semibold text-green-600">
-              Front-end Technologies
+                Front-end Technologies
               </h3>
               <div>
                 <ul className="list-disc pl-5">
@@ -248,8 +254,67 @@ export default function Home() {
                   </li>
                 </ul>
                 <p>
-                  Humber College's Employer Engagement Event Website that uses html, css,
-                  bootstrap and vanilla javascript.
+                  Humber College's Employer Engagement Event Website that uses
+                  html, css, bootstrap and vanilla javascript.
+                </p>
+              </div>
+            </div>
+            <div className="max-w-md basis-1/3 flex-1 lg:basis-1/3 bg-gray-600 p-5 rounded-lg  dark:bg-white scale-90 hover:scale-100 ease-in-out delay-150 duration-300">
+              <Image
+                className="rounded-lg object-contain w-full h-64"
+                src={project1_1_2}
+                alt="project"
+              />
+              <div className="text-gray-100 dark:text-black">
+                <ul className="flex gap-5 py-5 items-center text-xl">
+                  <li>Petal Express</li>
+                  <li>
+                    <a
+                      href="https://github.com/2023-Summer-ITE-5425-IGA/react-project-web-warriors/tree/main/petal_express_backend"
+                      target="_blank"
+                    >
+                      <AiFillGithub />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://github.com/2023-Summer-ITE-5425-IGA/react-project-web-warriors/tree/main/petal_express_frontend"
+                      target="_blank"
+                    >
+                      <AiFillGithub />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://github.com/2023-Summer-ITE-5425-IGA/angular-project-web_warriors"
+                      target="_blank"
+                    >
+                      <AiFillGithub />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://petal-express-fe.vercel.app/flowers"
+                      target="_blank"
+                    >
+                      <AiOutlineGlobal />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://angular-project-web-warriors.vercel.app/home"
+                      target="_blank"
+                    >
+                      <AiOutlineGlobal />
+                    </a>
+                  </li>
+                </ul>
+                <p>
+                  A specialized e-commerce platform delivers various flowers,
+                  offering authentication, product information, order and cart
+                  management features. The backend uses Express.js and Node.js
+                  with MongoDB, and there are two frontends: one in React.js and
+                  the other in Angular.js.
                 </p>
               </div>
             </div>
@@ -272,7 +337,11 @@ export default function Home() {
                   </li>
                 </ul>
                 <p>
-                A JAVA Spring boot pet management application that allows the user to manage pet information (CRUD)  using Spring MVC, Tomcat server, H2 db, Spring JPA, Lombok, command line runner, Thymeleaf (form binding, fragments, conditionals), and bootstrap.
+                  A JAVA Spring boot pet management application that allows the
+                  user to manage pet information (CRUD) using Spring MVC, Tomcat
+                  server, H2 db, Spring JPA, Lombok, command line runner,
+                  Thymeleaf (form binding, fragments, conditionals), and
+                  bootstrap.
                 </p>
               </div>
             </div>
@@ -295,7 +364,9 @@ export default function Home() {
                   </li>
                 </ul>
                 <p>
-                XML REST API Spring Boot Application that provides different API endpoints to manage books in a H2 database (Spring Data JPA, Tomcat, Lombok, jackson, jaxb)
+                  XML REST API Spring Boot Application that provides different
+                  API endpoints to manage books in a H2 database (Spring Data
+                  JPA, Tomcat, Lombok, jackson, jaxb)
                 </p>
               </div>
             </div>
@@ -326,7 +397,10 @@ export default function Home() {
                   </li> */}
                 </ul>
                 <p>
-                A Java Spring Boot restaurant web application (REST APIs, Spring Data JPA, Spring MVC, Maven, Spring Dev Tools, Lombok, Postman, Thymeleaf, Bootstrap) that retrieves dish data from H2 in memory database.
+                  A Java Spring Boot restaurant web application (REST APIs,
+                  Spring Data JPA, Spring MVC, Maven, Spring Dev Tools, Lombok,
+                  Postman, Thymeleaf, Bootstrap) that retrieves dish data from
+                  H2 in memory database.
                 </p>
               </div>
             </div>
@@ -429,11 +503,12 @@ export default function Home() {
                   </li>
                 </ul>
                 <p>
-                Use MVC Framework to handle CRUD operations in the J2EE web app using MYSQL database.
+                  Use MVC Framework to handle CRUD operations in the J2EE web
+                  app using MYSQL database.
                 </p>
               </div>
             </div>
-            </div>
+          </div>
         </section>
         <section>
           <div className="text-center pt-10 font-semibold">
@@ -461,7 +536,9 @@ export default function Home() {
                   </li>
                 </ul>
                 <p>
-                An android app that uses xml and java (intents) to submit event data to the native app calendar (stores photo taken from the native camera app to the form).
+                  An android app that uses xml and java (intents) to submit
+                  event data to the native app calendar (stores photo taken from
+                  the native camera app to the form).
                 </p>
               </div>
             </div>
@@ -484,7 +561,8 @@ export default function Home() {
                   </li>
                 </ul>
                 <p>
-                Android application to calculate rrsp and tax for annual income of year 2022 (xml and java)
+                  Android application to calculate rrsp and tax for annual
+                  income of year 2022 (xml and java)
                 </p>
               </div>
             </div>
@@ -507,7 +585,11 @@ export default function Home() {
                   </li>
                 </ul>
                 <p>
-                A Node/Express js Application that uses template engines (handlebars) to display records of books from Books.json file is with different routing that has features such as filter data(using form) by book title and book id, highlight book record based on their count.
+                  A Node/Express js Application that uses template engines
+                  (handlebars) to display records of books from Books.json file
+                  is with different routing that has features such as filter
+                  data(using form) by book title and book id, highlight book
+                  record based on their count.
                 </p>
               </div>
             </div>
@@ -530,7 +612,8 @@ export default function Home() {
                   </li>
                 </ul>
                 <p>
-                A node/Express js web app about restaurants that interacts with mongodb (using thunderclient) to perform CRUD operations.
+                  A node/Express js web app about restaurants that interacts
+                  with mongodb (using thunderclient) to perform CRUD operations.
                 </p>
               </div>
             </div>
@@ -643,9 +726,7 @@ export default function Home() {
                     </a>
                   </li>
                 </ul>
-                <p>
-                  A US based restaurant portal redesign using WordPress.
-                </p>
+                <p>A US based restaurant portal redesign using WordPress.</p>
               </div>
             </div>
             <div className="max-w-md basis-1/3 flex-1 lg:basis-1/3 bg-gray-600 p-5 rounded-lg  dark:bg-white scale-90 hover:scale-100 ease-in-out delay-150 duration-300">
@@ -715,7 +796,8 @@ export default function Home() {
                   </a>
                 </ul>
                 <p>
-                Prediction of healthy life expectancy and identification of factors influencing it.
+                  Prediction of healthy life expectancy and identification of
+                  factors influencing it.
                 </p>
               </div>
             </div>
