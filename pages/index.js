@@ -15,6 +15,7 @@ import skills_db from "../public/img/skills_db.png";
 import skills_o from "../public/img/skills_o.png";
 import project1 from "../public/img/proj/1_0-humber-emp-eng-event-portal.jpg";
 import project1_1_2 from "../public/img/proj/1_1_2_petal-express-react-angular-express-node.png";
+import project1_1_1 from "../public/img/proj/1_1_1_budgetbuddy-springboot-react-mongo.png";
 import project1_2 from "../public/img/proj/1_2-java-spring-boot-pet-mgmt-app.png";
 import project1_3 from "../public/img/proj/1_3-java-spring-boot-book-mgmt-app.png";
 import project1_5 from "../public/img/proj/1_5-java-spring-boot-restaurant-web-app.png";
@@ -139,7 +140,7 @@ export default function Home() {
                   <li>Spring MVC</li>
                   <li>REST API</li>
                   <li>Spring Data JPA</li>
-                  <li>Thymeleaf</li>
+                  <li>Spring Security</li>
                   <li>J2EE</li>
                   <li>JAVA Servlets</li>
                   <li>Node.js</li>
@@ -162,12 +163,10 @@ export default function Home() {
                 <ul className="list-disc pl-5">
                   <li>React.js</li>
                   <li>Angular.js</li>
-                  <li>Redux</li>
-                  <li>Thymeleaf</li>
+                  <li>Material UI</li>
                   <li>HTML</li>
                   <li>CSS</li>
                   <li>Tailwind.css</li>
-                  <li>Material UI</li>
                 </ul>
               </div>
             </div>
@@ -184,9 +183,9 @@ export default function Home() {
               </h3>
               <div>
                 <ul className="list-disc pl-5">
+                  <li>MongoDB</li>
                   <li>Oracle (PL/SQL)</li>
                   <li>MySQL</li>
-                  <li>MongoDB</li>
                   <li>H2 Database Engine</li>
                 </ul>
               </div>
@@ -205,13 +204,15 @@ export default function Home() {
               <div>
                 <ul className="list-disc pl-5">
                   <li>Git</li>
-                  <li>Vercel</li>
                   <li>Maven</li>
-                  <li>Postman</li>
-                  <li>Thunder Client</li>
                   <li>XML</li>
                   <li>JSON</li>
+                  <li>JWT</li>
                   <li>Lombok</li>
+                  <li>Postman</li>
+                  <li>Thunder Client</li>
+                  <li>Thymeleaf</li>
+                  <li>Vercel</li>
                   <li>Linux</li>
                   <li>Bash Scripting</li>
                 </ul>
@@ -256,6 +257,34 @@ export default function Home() {
                 <p>
                   Humber College's Employer Engagement Event Website that uses
                   html, css, bootstrap and vanilla javascript.
+                </p>
+              </div>
+            </div>
+            <div className="max-w-md basis-1/3 flex-1 lg:basis-1/3 bg-gray-600 p-5 rounded-lg  dark:bg-white scale-90 hover:scale-100 ease-in-out delay-150 duration-300">
+              <Image
+                className="rounded-lg object-contain w-full h-64"
+                src={project1_1_1}
+                alt="project"
+              />
+              <div className="text-gray-100 dark:text-black">
+                <ul className="flex gap-5 py-5 items-center text-xl">
+                  <li>Budget Buddy</li>
+                  <li>
+                    <a
+                      href="https://github.com/simulbista/BudgetBuddy-Server"
+                      target="_blank"
+                    >
+                      <AiFillGithub />
+                    </a>
+                  </li>
+                </ul>
+                <p>
+                  Budget Buddy is a financial management web application that
+                  utilizes Spring Boot (spring security) for the backend,
+                  ReactJS for the frontend and employs MongoDB as the database.
+                  It includes features such as authentication, personal expense
+                  and income tracking, and collaborative group finance
+                  management.
                 </p>
               </div>
             </div>
