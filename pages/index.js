@@ -104,13 +104,13 @@ export default function Home() {
               />
             </div>
             <p className="text-justify text-base pt-2 dark:text-white lg:px-32">
-              With my extensive background in Java and over three years of
+              With my extensive background in Java and Javascript stacks, and over three years of
               experience as a software developer, I bring valuable project
               management skills to the table. I have a proven track record of
               successfully managing multiple projects from start to finish,
               always striving to create impactful and innovative solutions. As a
               dedicated and proactive team player, I take full responsibility
-              for the projects I am a part of and am always searching for ways
+              of the projects I am a part of and am always searching for ways
               to have a positive impact on the wider community.
             </p>
           </div>
@@ -143,8 +143,8 @@ export default function Home() {
                   <li>Spring Security</li>
                   <li>J2EE</li>
                   <li>JAVA Servlets</li>
-                  <li>Node.js</li>
-                  <li>Express.js</li>
+                  <li>NodeJS</li>
+                  <li>ExpressJS</li>
                 </ul>
               </div>
             </div>
@@ -161,8 +161,8 @@ export default function Home() {
               </h3>
               <div>
                 <ul className="list-disc pl-5">
-                  <li>React.js</li>
-                  <li>Angular.js</li>
+                  <li>ReactJS</li>
+                  <li>AngularJS</li>
                   <li>Material UI</li>
                   <li>HTML</li>
                   <li>CSS</li>
@@ -341,9 +341,9 @@ export default function Home() {
                 <p>
                   A specialized e-commerce platform delivers various flowers,
                   offering authentication, product information, order and cart
-                  management features. The backend uses Express.js and Node.js
-                  with MongoDB, and there are two frontends: one in React.js and
-                  the other in Angular.js.
+                  management features. The backend uses ExpressJS and NodeJS
+                  with MongoDB, and there are two frontends: one in ReactJS and
+                  the other in AngularJS.
                 </p>
               </div>
             </div>
