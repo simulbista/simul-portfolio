@@ -104,14 +104,14 @@ export default function Home() {
               />
             </div>
             <p className="text-justify text-base pt-2 dark:text-white lg:px-32">
-              With my extensive background in Java and Javascript stacks, and
-              over three years of experience as a software developer, I bring
-              valuable project management skills to the table. I have a proven
+              With an extensive background in Java and Javascript stacks, and
+              over three years of experience as a software developer, Simul brings
+              valuable project management skills to the table. He has a proven
               track record of successfully managing multiple projects from start
               to finish, always striving to create impactful and innovative
-              solutions. As a dedicated and proactive team player, I take full
-              responsibility of the projects I am a part of and am always
-              searching for ways to have a positive impact on the wider
+              solutions. As a dedicated and proactive team player, Simul takes full
+              responsibility of the projects he is part of and always
+              searches for ways to have a positive impact on the wider
               community.
             </p>
           </div>
