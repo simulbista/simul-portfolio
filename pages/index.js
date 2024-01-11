@@ -13,10 +13,10 @@ import skills_be from "../public/img/skills_be.png";
 import skills_fe from "../public/img/skills_fe.png";
 import skills_db from "../public/img/skills_db.png";
 import skills_o from "../public/img/skills_o.png";
-import project1 from "../public/img/proj/1_0-humber-emp-eng-event-portal.jpg";
 import project1_1_2 from "../public/img/proj/1_1_2_petal-express-react-angular-express-node.png";
 import project1_1_1 from "../public/img/proj/1_1_1_budgetbuddy-springboot-react-mongo.png";
 import project1_2 from "../public/img/proj/1_2-java-spring-boot-pet-mgmt-app.png";
+import project2_5 from "../public/img/proj/2_5-humber-emp-eng-event-portal.jpg";
 import project1_3 from "../public/img/proj/1_3-java-spring-boot-book-mgmt-app.png";
 import project1_5 from "../public/img/proj/1_5-java-spring-boot-restaurant-web-app.png";
 import project2 from "../public/img/proj/2-travel-website.png";
@@ -233,38 +233,6 @@ export default function Home() {
             <div className="max-w-md basis-1/3 flex-1 lg:basis-1/3 bg-gray-600 p-5 rounded-lg  dark:bg-white scale-90 hover:scale-100 ease-in-out delay-150 duration-300">
               <Image
                 className="rounded-lg object-contain w-full h-64"
-                src={project1}
-                alt="project"
-              />
-              <div className="text-gray-100 dark:text-black">
-                <ul className="flex gap-5 py-5 items-center text-xl">
-                  <li>Humber Employer Engagement Event Portal</li>
-                  <li>
-                    <a
-                      href="https://github.com/Humber-EE/EE_website"
-                      target="_blank"
-                    >
-                      <AiFillGithub />
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://employerengagement-event.vercel.app"
-                      target="_blank"
-                    >
-                      <AiOutlineGlobal />
-                    </a>
-                  </li>
-                </ul>
-                <p>
-                  Humber College's Employer Engagement Event Website that uses
-                  html, css, bootstrap and vanilla javascript.
-                </p>
-              </div>
-            </div>
-            <div className="max-w-md basis-1/3 flex-1 lg:basis-1/3 bg-gray-600 p-5 rounded-lg  dark:bg-white scale-90 hover:scale-100 ease-in-out delay-150 duration-300">
-              <Image
-                className="rounded-lg object-contain w-full h-64"
                 src={project1_1_1}
                 alt="project"
               />
@@ -463,6 +431,38 @@ export default function Home() {
                 </ul>
                 <p>
                   Travel Website that uses html, css and vanilla javascript.
+                </p>
+              </div>
+            </div>
+            <div className="max-w-md basis-1/3 flex-1 lg:basis-1/3 bg-gray-600 p-5 rounded-lg  dark:bg-white scale-90 hover:scale-100 ease-in-out delay-150 duration-300">
+              <Image
+                className="rounded-lg object-contain w-full h-64"
+                src={project2_5}
+                alt="project"
+              />
+              <div className="text-gray-100 dark:text-black">
+                <ul className="flex gap-5 py-5 items-center text-xl">
+                  <li>Humber Employer Engagement Event Portal</li>
+                  <li>
+                    <a
+                      href="https://github.com/Humber-EE/EE_website"
+                      target="_blank"
+                    >
+                      <AiFillGithub />
+                    </a>
+                  </li>
+                  {/* <li>
+                    <a
+                      href="https://employerengagement-event.vercel.app"
+                      target="_blank"
+                    >
+                      <AiOutlineGlobal />
+                    </a>
+                  </li> */}
+                </ul>
+                <p>
+                  Humber College's Employer Engagement Event Website that uses
+                  html, css, bootstrap and vanilla javascript.
                 </p>
               </div>
             </div>
