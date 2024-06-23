@@ -104,15 +104,7 @@ export default function Home() {
               />
             </div>
             <p className="text-justify text-base pt-2 dark:text-white lg:px-32">
-              With an extensive background in Java and Javascript stacks, and
-              over three years of experience as a software developer, Simul brings
-              valuable project management skills to the table. He has a proven
-              track record of successfully managing multiple projects from start
-              to finish, always striving to create impactful and innovative
-              solutions. As a dedicated and proactive team player, Simul takes full
-              responsibility of the projects he is part of and always
-              searches for ways to have a positive impact on the wider
-              community.
+            With an extensive background in Java, JavaScript, and other tech stacks, Simul Bista is an accomplished software developer with over three years of experience. He brings valuable project management skills, having led multiple teams and instructed over 100 students. Simul has a proven track record of delivering innovative solutions and is dedicated to leveraging technology to create a positive impact in the community. As a proactive team player, he takes full responsibility for projects, ensuring their success from start to finish while actively seeking opportunities to make a broader, positive impact.
             </p>
           </div>
         </section>
