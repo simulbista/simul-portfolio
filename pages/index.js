@@ -4,6 +4,7 @@ import {
   AiFillGithub,
   AiOutlineGlobal,
   AiOutlineMail,
+  AiOutlineMedium,
   AiFillFilePdf,
 } from "react-icons/ai";
 import { WiHorizon } from "react-icons/wi";
@@ -91,6 +92,9 @@ export default function Home() {
               <a href="mailto:simulbista@gmail.com">
                 <AiOutlineMail />
               </a>
+              <a href="https://medium.com/@simulbista" target="_blank">
+                <AiOutlineMedium />
+              </a>
             </div>
             <h3 className="text-sm py-2 leading-10 font-semibold text-green-600 dark:text-orange-400">
               Software Developer
@@ -104,7 +108,32 @@ export default function Home() {
               />
             </div>
             <p className="text-justify text-base pt-2 dark:text-white lg:px-32">
-            With an extensive background in Java, JavaScript, and other tech stacks, Simul Bista is an accomplished software developer with over three years of experience. He brings valuable project management skills, having led multiple teams and instructed over 100 students. Simul has a proven track record of delivering innovative solutions and is dedicated to leveraging technology to create a positive impact in the community. As a proactive team player, he takes full responsibility for projects, ensuring their success from start to finish while actively seeking opportunities to make a broader, positive impact.
+              I am a passionate software developer, a professor, and a learner
+              with extensive experience designing and delivering innovative,
+              high-impact solutions across diverse industries. Proficient in
+              Java, JavaScript, TypeScript, and modern frameworks like Spring
+              Boot, React, and Node.js, I specialize in building scalable,
+              secure, and user-centric applications that drive results.
+              <br></br>
+              <br></br> Over the years, I’ve successfully led teams and
+              collaborated with stakeholders to architect and deploy solutions
+              that improve efficiency, enhance user experience, and create a
+              lasting positive impact. Highlights include implementing CI/CD
+              pipelines with GitHub Actions, designing robust authentication
+              systems using AWS Cognito, and leveraging TDD and SOLID principles
+              to ensure code quality and maintainability.
+              <br></br>
+              <br></br>My work spans creating e-commerce platforms, civic
+              engagement tools, and educational digital ecosystems. These
+              projects have streamlined operations, reduced administrative
+              workloads by 70%, and served over 150,000 users globally.
+              Additionally, I have empowered over 300 students as an instructor
+              in web application development, equipping them with practical
+              skills in enterprise-level technologies such as microservices,
+              REST APIs, and responsive design. With a deep commitment to
+              innovation and a focus on community impact, I thrive on solving
+              complex problems, mentoring others, and contributing to meaningful
+              projects.{" "}
             </p>
           </div>
         </section>
