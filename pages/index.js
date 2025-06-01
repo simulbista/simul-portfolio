@@ -14,8 +14,9 @@ import skills_be from "../public/img/skills_be.png";
 import skills_fe from "../public/img/skills_fe.png";
 import skills_db from "../public/img/skills_db.png";
 import skills_o from "../public/img/skills_o.png";
-import project1_1_2 from "../public/img/proj/1_1_2_petal-express-react-angular-express-node.png";
+import project1_1_0 from "../public/img/proj/1_1_0_happybalconies.jpg";
 import project1_1_1 from "../public/img/proj/1_1_1_budgetbuddy-springboot-react-mongo.png";
+import project1_1_2 from "../public/img/proj/1_1_2_petal-express-react-angular-express-node.png";
 import project1_2 from "../public/img/proj/1_2-java-spring-boot-pet-mgmt-app.png";
 import project2_5 from "../public/img/proj/2_5-humber-emp-eng-event-portal.jpg";
 import project1_3 from "../public/img/proj/1_3-java-spring-boot-book-mgmt-app.png";
@@ -127,7 +128,7 @@ export default function Home() {
               engagement tools, and educational digital ecosystems. These
               projects have streamlined operations, reduced administrative
               workloads by 70%, and served over 150,000 users globally.
-              Additionally, I have empowered over 300 students as an instructor
+              Additionally, I have empowered over 500 students as an instructor
               in web application development, equipping them with practical
               skills in enterprise-level technologies such as microservices,
               REST APIs, and responsive design. With a deep commitment to
@@ -225,6 +226,7 @@ export default function Home() {
               </h3>
               <div>
                 <ul className="list-disc pl-5">
+                  <li>AWS</li>
                   <li>TypeScript</li>
                   <li>Git</li>
                   <li>Maven</li>
@@ -233,9 +235,6 @@ export default function Home() {
                   <li>JWT</li>
                   <li>Lombok</li>
                   <li>Postman</li>
-                  <li>Thunder Client</li>
-                  <li>Thymeleaf</li>
-                  <li>Vercel</li>
                   <li>Linux</li>
                   <li>Bash Scripting</li>
                 </ul>
@@ -276,6 +275,29 @@ export default function Home() {
                   It includes features such as authentication, personal expense
                   and income tracking, and collaborative group finance
                   management.
+                </p>
+              </div>
+            </div>
+            <div className="max-w-md basis-1/3 flex-1 lg:basis-1/3 bg-gray-600 p-5 rounded-lg  dark:bg-white scale-90 hover:scale-100 ease-in-out delay-150 duration-300">
+              <Image
+                className="rounded-lg object-contain w-full h-64"
+                src={project1_1_0}
+                alt="project"
+              />
+              <div className="text-gray-100 dark:text-black">
+                <ul className="flex gap-5 py-5 items-center text-xl">
+                  <li>Happy Balconies</li>
+                  <li>
+                    <a
+                      href="https://happybalconies.ca/"
+                      target="_blank"
+                    >
+                      <AiOutlineGlobal />
+                    </a>
+                  </li>
+                </ul>
+                <p>
+                  Happy Balconies is a web platform for a balcony cleaning service, where customers can explore offerings, get instant quotes, book appointments, and communicate with the business. Built with modular JavaScript, HTML, and CSS, it delivers a responsive and user-friendly experience. The backend uses Google Apps Script to handle bookings, email notifications, and data storage via Google Sheets, with Google Maps Autocomplete for precise address input. The site is hosted on Vercel with automated deployment.
                 </p>
               </div>
             </div>
