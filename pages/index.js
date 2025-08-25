@@ -14,6 +14,8 @@ import skills_be from "../public/img/skills_be.png";
 import skills_fe from "../public/img/skills_fe.png";
 import skills_db from "../public/img/skills_db.png";
 import skills_o from "../public/img/skills_o.png";
+
+import project1_0_0 from "../public/img/proj/1_0_0_ai-agent.png";
 import project1_1_0 from "../public/img/proj/1_1_0_happybalconies.jpg";
 import project1_1_1 from "../public/img/proj/1_1_1_budgetbuddy-springboot-react-mongo.png";
 import project1_1_2 from "../public/img/proj/1_1_2_petal-express-react-angular-express-node.png";
@@ -253,6 +255,34 @@ export default function Home() {
             <div className="max-w-md basis-1/3 flex-1 lg:basis-1/3 bg-gray-600 p-5 rounded-lg  dark:bg-white scale-90 hover:scale-100 ease-in-out delay-150 duration-300">
               <Image
                 className="rounded-lg object-contain w-full h-64"
+                src={project1_0_0}
+                alt="project"
+              />
+              <div className="text-gray-100 dark:text-black">
+                <ul className="flex gap-5 py-5 items-center text-xl">
+                  <li>AI Email Agent</li>
+                  <li>
+                    <a
+                      href="https://emailagent.simulbista.com/"
+                      target="_blank"
+                    >
+                      <AiOutlineGlobal />
+                    </a>
+                  </li>
+                </ul>
+                <p>
+                  AI Email Agent is an intelligent Gmail management system using
+                  Python and Google Gemini AI to automatically classify and
+                  organize emails. It supports Jobs, Investments, and personal
+                  categories, sends WhatsApp summaries via Twilio, and includes
+                  a CI/CD pipeline with automated testing and production safety
+                  gates for reliable, automated inbox management.
+                </p>
+              </div>
+            </div>
+            <div className="max-w-md basis-1/3 flex-1 lg:basis-1/3 bg-gray-600 p-5 rounded-lg  dark:bg-white scale-90 hover:scale-100 ease-in-out delay-150 duration-300">
+              <Image
+                className="rounded-lg object-contain w-full h-64"
                 src={project1_1_1}
                 alt="project"
               />
@@ -288,16 +318,21 @@ export default function Home() {
                 <ul className="flex gap-5 py-5 items-center text-xl">
                   <li>Happy Balconies</li>
                   <li>
-                    <a
-                      href="https://happybalconies.ca/"
-                      target="_blank"
-                    >
+                    <a href="https://happybalconies.ca/" target="_blank">
                       <AiOutlineGlobal />
                     </a>
                   </li>
                 </ul>
                 <p>
-                  Happy Balconies is a web platform for a balcony cleaning service, where customers can explore offerings, get instant quotes, book appointments, and communicate with the business. Built with modular JavaScript, HTML, and CSS, it delivers a responsive and user-friendly experience. The backend uses Google Apps Script to handle bookings, email notifications, and data storage via Google Sheets, with Google Maps Autocomplete for precise address input. The site is hosted on Vercel with automated deployment.
+                  Happy Balconies is a web platform for a balcony cleaning
+                  service, where customers can explore offerings, get instant
+                  quotes, book appointments, and communicate with the business.
+                  Built with modular JavaScript, HTML, and CSS, it delivers a
+                  responsive and user-friendly experience. The backend uses
+                  Google Apps Script to handle bookings, email notifications,
+                  and data storage via Google Sheets, with Google Maps
+                  Autocomplete for precise address input. The site is hosted on
+                  Vercel with automated deployment.
                 </p>
               </div>
             </div>
